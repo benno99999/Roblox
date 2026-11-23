@@ -1,0 +1,41 @@
+{
+  "name": "RoboVac",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMaxZoomDistance": 48,
+        "CameraMinZoomDistance": 10,
+        "CharacterJumpHeight": 0,
+        "CharacterJumpPower": 0,
+        "CharacterUseJumpPower": true,
+        "CharacterWalkSpeed": 18,
+        "EnableMouseLockOption": false
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0.45, 0.45, 0.48],
+        "Brightness": 2,
+        "ClockTime": 14.5,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [0.5, 0.5, 0.52]
+      }
+    }
+  }
+}

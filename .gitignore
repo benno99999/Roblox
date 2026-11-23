@@ -1,0 +1,7 @@
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+roblox.yml
+sourcemap.json
+.DS_Store
